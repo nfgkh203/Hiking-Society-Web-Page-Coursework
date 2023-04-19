@@ -1,0 +1,112 @@
+body{
+    background-color: grey;
+}
+
+header{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: Verdana, Geneva;
+    color: black;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+p{
+    font-size: 13px;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+}
+
+aside{
+    background-color: white;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: green;
+    border-radius: 10px;
+}
+
+nav li{
+    border: solid 2px (#023020);
+    background-color: green;
+    list-style: none;
+    float: left;
+    width: 15%;
+    padding: 16px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover{
+    background-color: black;
+}
+
+.active{
+    color: (#023020);
+}
+
+table{
+    font-family: 13px;
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: solid 2px #F0F0F0;
+
+}
+
+table tr:nth-child(even){
+    background-color: #F2F2F2;
+}
+
+table tr:hover{
+    background-color: grey;
+}
+
+table th{
+    background-color: green;
+    color: white;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+#title{
+    display: inline;
+}
+
+nav ul{
+    margin: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+#carousel img {
+    max-height: 400px;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
